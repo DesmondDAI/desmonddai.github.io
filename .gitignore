@@ -1,4 +1,6 @@
 .DS_Store
+.jekyll-metadata
+.sass-cache/
 _site/
 bin/
 bbin/
