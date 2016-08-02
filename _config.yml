@@ -57,11 +57,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 
 # Analytics settings
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Baidu Tongji
+ba_track_id: b5ad817e8da63b85f3e566c056c7ad9f
 # Google Analytics
 ga_track_id: 'UA-81678422-1'            # Format: UA-xxxxxx-xx
 ga_domain: desmonddai.me
+# Tencent Tongji
+te_track_id: 57746464
 
 
 
