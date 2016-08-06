@@ -5,7 +5,7 @@ header-img: img/space.jpg
 email: dxmlore@gmail.com
 description: ""
 keyword: "戴昕明, desmonddai, DesmondDAI, personal blog, 博客"
-url: "https://desmonddai.github.io"              # your host, for absolute URL
+url: "http://desmonddai.me"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -49,7 +49,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: desmonddaime
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
