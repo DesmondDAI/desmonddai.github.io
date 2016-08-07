@@ -36,7 +36,7 @@
   border-color: #0085a1;
 }
 .sidebar-container .short-about img {
-  width: 80%;
+  width: 90%;
   display: block;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -560,7 +560,7 @@ pre code {
 }
 footer {
   font-size: 20px;
-  padding: 50px 0 65px;
+  padding: 50px 0 0 0;
 }
 footer .list-inline {
   margin: 0;
@@ -854,6 +854,12 @@ body {
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+}
+/* Desmond add emoji style */
+.post-container .emoji {
+  display:inline-block;
+  margin:0px 1px 0px 1px;
+  padding-bottom:5px;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
