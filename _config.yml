@@ -84,6 +84,6 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 recommandations: [
     {
         title: "Hux",
-        href: "http://huangxuan.me"
+        href: "https://github.com/huxpro"
     }
 ]
