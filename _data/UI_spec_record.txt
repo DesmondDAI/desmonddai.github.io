@@ -1,1 +1,7 @@
 1. header background image ratio: 2.847 (709/249)
+
+2. GIF config (in GIF Brewery 3):
+- 12 frames/s
+- width:256px (5s, height: proportional)
+- color count: 12
+- algorithm: Sierra
