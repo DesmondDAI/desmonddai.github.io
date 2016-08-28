@@ -8,6 +8,7 @@ I have been intending to build a customized blog for a long time, and now it is 
 
 ## Future Plan
 
+- [ ] Minify CSS
 - [ ] Contact page
 
 
