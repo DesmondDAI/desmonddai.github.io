@@ -4,7 +4,7 @@ title:      "菜鸟Desmond开了个博客"
 subtitle:   "\"Hello World\""
 date:       2016-08-07 12:34:56
 author:     "DesmondDAI"
-header-img: "img/post-bg-hello-my-blog.jpg"
+header-img: "img/in-post/post-hello-my-blog/post-bg-hello-my-blog.jpg"
 tags:
     - 生活
     - Web
