@@ -12,7 +12,7 @@ tags:
 
 <br>
 
-> “On my way.”
+> On my way.
 
 <br>
 

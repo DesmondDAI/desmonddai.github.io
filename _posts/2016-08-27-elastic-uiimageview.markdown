@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "UIImageView与UIScrollView的一点UX效果实现"
-subtitle:   "\"下拉弹性效果 | 上拉慢速压缩效果\""
+subtitle:   "下拉弹性效果 | 上拉慢速压缩效果"
 date:       2016-08-27 12:12:12
 author:     "DesmondDAI"
 header-img: "img/in-post/post-elastic-uiimageview/header-bg-elastic-uiimageview.jpg"
@@ -12,7 +12,7 @@ tags:
 
 <br>
 
-> “仅阐述简单的实现思路，希望可以激发对于自定义UI控件的想象”
+> 仅阐述简单的实现思路，希望可以激发对于自定义UI控件的想象
 
 <br>
 
