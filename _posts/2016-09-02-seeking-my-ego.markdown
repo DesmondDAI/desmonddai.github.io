@@ -16,7 +16,7 @@ tags:
 <br>
 
 
-## First year after graduate
+## First year after graduation
 
 During my first job, I got fired just before finishing probation period. The next day was Mid-Autumn Festival, and I didn't dare to tell my family.
 Actually I had tough time in this job. When I joined the company, I nearly knew nothing about programming, and what was worse, my teammates were impatient to guide me. Everyday I
