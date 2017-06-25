@@ -136,7 +136,7 @@ func scrollViewDidScroll(_ scrollView: UIScrollView) {
 不需要额外拉一条约束的引用进入view controller。但在我看完realm的一篇[*分享*](https://news.realm.io/news/gotocph-marin-todorov-auto-layout-animations-ios/)之后，
 关于之前遇到的view的一些奇怪行为恍然大悟。简单来说就是，在iOS的定义里，Auto Layout相当于一系列视图组件的布局规则。
 当我们在代码里直接更改frame时，我们是在Auto Layout之外进行操作。那么问题来了，系统的一些特定事件会触发布局系统重新读取我们设定在视图组件上的一系列约束，
-这就意味着我们更改的frame会被重置，而这也许不是我们想要的结果。因此我的做法是，如果用了Auto Layout做布局，
+这就意味着我们更改的frame会被重置，而这也许不是我们想要的结果。因此我现在的偏好是，如果用了Auto Layout做布局，
 代码里针对view的布局更改甚至一些动画都通过修改约束来进行，这样当特定事件出现时，视图组件的布局会维持原样。
 那么，有哪些系统特定事件呢？如下：
 - 键盘的弹出与收回
@@ -147,4 +147,4 @@ func scrollViewDidScroll(_ scrollView: UIScrollView) {
 <p id="conclusion"></p>
 ## 总结
 `scrollViewDidScroll(_:)`是可以实现很多有趣的滑动反馈的开始。对不同应用，应该根据实际来实现合适的用户体验反馈。
-以上实现的完整代码以上传至个人Github。传送请[*戳此*](https://github.com/DesmondDAI/MasterTableView)
+完整代码已上传至个人Github。传送请[*戳此*](https://github.com/DesmondDAI/MasterTableView)
