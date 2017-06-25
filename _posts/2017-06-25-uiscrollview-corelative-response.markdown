@@ -11,7 +11,7 @@ tags:
 
 <br>
 
-> UX的核心是既帮助用户理解应用的同时又能提供更愉悦的使用体验
+> UX的核心是在帮助用户理解应用的同时提供更愉悦的使用体验
 
 <br>
 
@@ -115,7 +115,7 @@ var bannerImageViewDefaultHeight: CGFloat {
 - 设定标题图片的高度约束`bannerImageViewHeightConstraint`。为什么是使用约束更改高度？下文会详解说明
 - 设定table view的`contentInset`为上端inset为初始标题图片的高度，好让table view的内容刚好在标题图片下方开始展示
 - `didSet`里的代码在对象引用设定后会调用，在`didSet`之前，我们一般在`viewDidLoad`里设定视图组件的属性。
-使用`didSet`可以使设定代码与对应的组件更紧凑，便于阅读。关于Swift的各种属性的解释请[*戳此*](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html)
+使用`didSet`可以使设定代码与对应的组件更紧凑，便于阅读。关于Swift的不同属性的解释请[*戳此*](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html)
 - `estimatedRowHeight`的值影响table view对content高度的初步计算，从而影响右侧scrolling indicator的精确度；
 `rowHeight = UITableViewAutomaticDimension`是让table view开启利用Auto Layout计算layout的功能，
 据说苹果在iOS 11里对table view进行了优化，`rowHeight`不再需要人手设定而隐式开启使用Auto Layout。具体有待考证。
